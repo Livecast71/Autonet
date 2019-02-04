@@ -1,0 +1,134 @@
+//
+//  FileManger.h
+//  Autonet
+//
+//  Created by Livecast02 on 15-12-16.
+//  Copyright © 2016 Autonet. All rights reserved.
+//
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+@interface FileManager : NSObject
+@property (nonatomic, retain) NSMutableArray * Veldentotaal;
++(void)reload;
++(NSString*)getDir;
++(AppDelegate*)getDel;
++(NSMutableDictionary*)getUser;
++(void)ImagesWrite:(NSObject*)images;
++(void)WriteImages:(NSMutableArray*)b;
++(void)WriteImagesThumbs:(NSMutableArray*)b;
++(void)DownloadSingleImageForCar:(NSMutableDictionary*)imageDict;
++(void)WriteOnderdelen:(NSString*)onderdelen;
++(void)voertuigenPlist:(NSMutableArray*)total;
++(void)setPlist:(NSString*)source;
++(UIImage *)decodeBase64ToImage:(NSString *)strEncodeData;
++(BOOL)writeToPlistFile:(NSString*)filename;
++(NSArray*)readFromPlistFile:(NSString*)filename;
++(NSArray*)getStandaardCategorieen:(NSString*)sender;
++(NSMutableDictionary*)getAannamelijstenCategorieen;
++(void)UserAannamelijst:(NSMutableDictionary*)sender;
++(NSArray*)getAirbags_voertuig:(NSString*)sender;
++(NSMutableArray*)insertSchades_voertuig:(NSMutableDictionary*)sender;
++(NSMutableArray*)insertOpties_voertuig:(NSMutableDictionary*)sender;
++(NSMutableArray*)insertAirbags_voertuig:(NSMutableDictionary*)sender;
++(NSMutableArray*)insertgordels_voertuig:(NSMutableDictionary*)sender;
++(NSArray*)getAannamelijst:(NSString*)sender;
++(NSArray*)getGordelspanners_voertuig:(NSString*)sender;
++(NSArray*)getFotos_voertuig:(NSString*)sender;
++(NSArray*)getOnderdelen_voertuig:(NSString*)sender;
++(NSArray*)getOnderdelen_voertuig_kern:(NSString*)sender;
++(NSArray*)getOpties_voertuig:(NSString*)sender;
++(NSArray*)getSchades_voertuig:(NSString*)sender;
++(NSArray*)getVelden_voertuig:(NSString*)sender;
++(NSMutableArray*)getFotos_onderdelen:(NSString*)sender;
++(NSArray*)getOnderdelenVoertuigId:(NSString*)sender;
++(NSArray*)insertOnderdelenid:(NSMutableDictionary*)dictonary setid:(NSString*)idit;
++(NSArray*)removeFotos_onderdelenid:(NSString*)idit;
++(NSArray*)getArray:(NSString*)sender;
++(NSArray*)getTeststatussenOnID:(NSInteger)sender;
++(NSArray*)getTeststatussen;
+@property (nonatomic, retain) NSMutableArray * Teststatussen;
++(NSArray*)getMerkOnNaam:(NSString*)sender;
+@property (nonatomic, retain) NSArray * merkenNamen;
++(NSArray*)getMerk:(NSString*)sender;
+@property (nonatomic, retain) NSArray * merken;
++(NSArray*)getModel:(NSString*)sender;
+@property (nonatomic, retain) NSArray * modellen;
++(NSArray*)getModeOnName:(NSString*)sender;
++(NSArray*)getVeld:(NSString*)sender;
+@property (nonatomic, retain) NSArray * velden;
++(NSArray*)getLand:(NSString*)sender;
+@property (nonatomic, retain) NSArray * landen;
++(NSArray*)getPlaatsen:(NSString*)sender;
+@property (nonatomic, retain) NSArray * plaatsen;
++(NSArray*)getOnderdelen:(NSInteger)sender;
+@property (nonatomic, retain) NSArray * Onderdelen;
++(NSArray*)getCategorieen:(NSString*)sender;
+@property (nonatomic, retain) NSArray * Categorieen;
++(NSArray*)getVeldafhankelijk:(NSString*)sender;
+@property (nonatomic, retain) NSArray * Veldafhankelijk;
++(NSArray*)getSuggesties:(NSString*)sender;
+@property (nonatomic, retain) NSArray * Suggesties;
++(NSArray*)getAfhangkelijkheden:(NSString*)sender;
+@property (nonatomic, retain) NSArray * Afhangkelijkheden;
++(NSArray*)getVoertuigsoorten;
+@property (nonatomic, retain) NSArray * Voertuigsoorten;
++(NSDictionary*)getInternetSoorten;
+@property (nonatomic, retain) NSDictionary * internetsoorten;
++(NSArray*)getVeldmaskers:(NSString*)sender;
+@property (nonatomic, retain) NSArray * Veldmaskers;
++(NSArray*)getBTW;
+@property (nonatomic, retain) NSArray * BTW;
++(NSArray*)getVoertuigvelden;
+@property (nonatomic, retain) NSArray * Voertuigvelden;
++(NSArray*)getEmptyPart;
+@property (nonatomic, retain) NSArray * Empty;
++(NSArray*)getAfstand;
+@property (nonatomic, retain) NSArray * Afstand;                   
++(NSArray*)getVoertuigsoortenopid:(NSString*)sender;
+@property (nonatomic, retain) NSArray * VoertuigVeldenInOnderdelen;
++(NSArray*)getVeldenVoorVoertuigOnID:(NSString*)sender;
++(NSArray*)getVoertuigVeldenOpID;
++(void)refresh;
++(NSArray*)getModellen:(NSString*)sender;
++(NSArray*)getVeldmaskers:(NSString*)sender and:(NSString*)carID;
++(NSArray*)getVelden:(NSString*)sender and:(NSString*)carID;
++(NSArray*)getVeldenId:(NSString*)sender;
++(NSArray*)getVeldafhankelijkinlcude:(NSString*)sender include:(NSInteger)tag;
++(NSArray*)getOnderdelenAndWrite:(NSMutableDictionary*)sender;                   
++(NSArray*)getVeldenOnlist:(NSArray*)sender;
++(NSArray*)getVelden_voertuig:(NSString*)sender add:(NSMutableDictionary*)item;
++(NSArray*)getVelden_voertuigMulti:(NSString*)sender add:(NSMutableArray*)items;
++(NSArray*)getOnderdelen_Categorie:(NSMutableArray*)onderdelen whatid:(NSString*)deelid;
++(NSArray*)getOnderdeelOnID:(NSString*)sender;
++(void) SetUrl:(NSString*)dateURL;
++(NSArray*)getOnderdelen;
++(void)RemoveNew:(NSMutableDictionary*)sender;
++(NSArray*)insertnew:(NSMutableDictionary*)sender;
++(NSArray*)insertFotosIn_voertuig:(NSMutableDictionary*)sender;
++(NSArray*)insertFotos_onderdelenid:(NSMutableArray*)sender setid:(NSString*)sender;
++(NSArray*)getLand;
++(NSArray*)getVeldenOnOnderdeel:(NSString*)sender and:(NSString*)onderdeelID;
++(NSArray*)getBTWOnID:(NSString*)sender;
++(NSArray*)getOnderdelenWaardes:(NSString*)sender;
++(void)insertKilometerStand:(NSNumber*)sender;
++(NSArray*)getVoertuigen;
++(NSMutableDictionary*)getMAskVeld:(NSString*)sender;
++(void)insertVoertuig:(NSMutableDictionary*)sender;
++(NSArray*)getOnderdelenfullOnID;
++(void)checkit;
++(NSMutableArray*)insertDelen:(NSMutableArray*)array;
++(void)RemoveNewOnId:(NSString*)IDit;
++(NSArray*)getStatistiekenOnID:(NSString*)sender;
++(void)insertFotos:(NSMutableArray*)sender;
++(NSMutableDictionary*)getUser:(NSString*)sender;
++(NSArray*)getallVeldenValues;
++(NSArray*)getAfstandOnID:(NSString*)sender;
++(NSArray*)getLandID:(NSNumber*)sender;
++(void)insertVeldentotaal:(NSString*)carid;
++(void)DownloadSingleImage:(NSMutableDictionary*)imageDict;
++(void)DownloadSingleImageAfter:(NSMutableDictionary*)imageDict;
++(FileManager*)OnderdelenImagesWriteToArray:(NSMutableArray*)images onderdeelID:(NSString*)onderdeel voertuigID:(NSString*)voertuig;
++(void)DownloadSingleThumbImage:(NSMutableDictionary*)imageDict;
+@property (nonatomic, retain) NSMutableArray * imagesArray;
+@end

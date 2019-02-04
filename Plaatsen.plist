@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>1</integer>
+		<key>Naam</key>
+		<string>Voorkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>2</integer>
+		<key>Naam</key>
+		<string>Rechtsvoor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>3</integer>
+		<key>Naam</key>
+		<string>Linksvoor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>4</integer>
+		<key>Naam</key>
+		<string>Rechterzijde voor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>5</integer>
+		<key>Naam</key>
+		<string>Linkerzijde voor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>6</integer>
+		<key>Naam</key>
+		<string>Rechterkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>7</integer>
+		<key>Naam</key>
+		<string>Linkerkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>8</integer>
+		<key>Naam</key>
+		<string>Rechterzijde achter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>9</integer>
+		<key>Naam</key>
+		<string>Linkerzijde achter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>10</integer>
+		<key>Naam</key>
+		<string>Rechtsachter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>11</integer>
+		<key>Naam</key>
+		<string>Linksachter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>12</integer>
+		<key>Naam</key>
+		<string>Achterkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>13</integer>
+		<key>Naam</key>
+		<string>Achterkant Links-Rechts</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>14</integer>
+		<key>Naam</key>
+		<string>Voorkant Links-Rechts</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>15</integer>
+		<key>Naam</key>
+		<string>LV, RV, LA, RA</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>16</integer>
+		<key>Naam</key>
+		<string>Bovenkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>17</integer>
+		<key>Naam</key>
+		<string>Binnen voor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>18</integer>
+		<key>Naam</key>
+		<string>Binnen achter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>19</integer>
+		<key>Naam</key>
+		<string>Binnen</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>20</integer>
+		<key>Naam</key>
+		<string>Motor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>21</integer>
+		<key>Naam</key>
+		<string>Onderkant achter</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>22</integer>
+		<key>Naam</key>
+		<string>Onderkant voor</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>23</integer>
+		<key>Naam</key>
+		<string>Onderkant</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>24</integer>
+		<key>Naam</key>
+		<string>Variabel</string>
+	</dict>
+	<dict>
+		<key>DeelPlaatsId</key>
+		<integer>25</integer>
+		<key>Naam</key>
+		<string>Plaatsloos</string>
+	</dict>
+</array>
+</plist>

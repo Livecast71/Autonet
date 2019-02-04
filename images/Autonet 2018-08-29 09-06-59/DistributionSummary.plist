@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Autonet.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>490BEA3A7D743CE144F3E79B5EBE66A7EE85DF74</string>
+				<key>dateExpires</key>
+				<string>07-08-19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>6RBVN2966L.nl.Autonet.app</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>6RBVN2966L</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>6RBVN2966L.nl.Autonet.app</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Autonet.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1b8e4822-6266-4cd2-a783-6844dcf0d933</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: nl.Autonet.app</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>6RBVN2966L</string>
+				<key>name</key>
+				<string>Autonet B.V.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

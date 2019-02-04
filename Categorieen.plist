@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CategorieId</key>
+		<integer>10</integer>
+		<key>Naam</key>
+		<string>Motor en Toebehoren</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>14</integer>
+		<key>Naam</key>
+		<string>Motordelen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>15</integer>
+		<key>Naam</key>
+		<string>Computers en Elektronica</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>20</integer>
+		<key>Naam</key>
+		<string>Besturing</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>25</integer>
+		<key>Naam</key>
+		<string>Dashboard en Schakelaars</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>30</integer>
+		<key>Naam</key>
+		<string>Interieur en Bekleding</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>35</integer>
+		<key>Naam</key>
+		<string>Transmissie en Toebehoren</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>40</integer>
+		<key>Naam</key>
+		<string>Onderstel en Ophanging</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>45</integer>
+		<key>Naam</key>
+		<string>Ruiten en Toebehoren</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>50</integer>
+		<key>Naam</key>
+		<string>Uitlaatsysteem</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>55</integer>
+		<key>Naam</key>
+		<string>Verlichting</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>60</integer>
+		<key>Naam</key>
+		<string>Brandstofsysteem</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>65</integer>
+		<key>Naam</key>
+		<string>Airco en Verwarming</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>70</integer>
+		<key>Naam</key>
+		<string>Plaatwerk en Carrosserie</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>71</integer>
+		<key>Naam</key>
+		<string>Sloten en Scharnieren</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>75</integer>
+		<key>Naam</key>
+		<string>Accessoires</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>78</integer>
+		<key>Naam</key>
+		<string>Remmen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>80</integer>
+		<key>Naam</key>
+		<string>Banden en Velgen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>85</integer>
+		<key>Naam</key>
+		<string>Accu en Toebehoren</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>88</integer>
+		<key>Naam</key>
+		<string>Leidingen en Rubbers</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>89</integer>
+		<key>Naam</key>
+		<string>Overige Delen / Diversen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>90</integer>
+		<key>Naam</key>
+		<string>Overige Diensten</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>92</integer>
+		<key>Naam</key>
+		<string>Autos / Groepen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>97</integer>
+		<key>Naam</key>
+		<string>Revisie Delen</string>
+	</dict>
+	<dict>
+		<key>CategorieId</key>
+		<integer>98</integer>
+		<key>Naam</key>
+		<string>Aanhangwagens</string>
+	</dict>
+</array>
+</plist>
