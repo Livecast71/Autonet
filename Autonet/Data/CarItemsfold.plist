@@ -73,7 +73,7 @@
 				<key>item</key>
 				<string>Bouwdag</string>
 				<key>title</key>
-				<string>Bouwjaar/maand/dag:</string>
+				<string>dag/maand/bouwjaar:</string>
 				<key>title_active</key>
 				<string>YES</string>
 				<key>char</key>

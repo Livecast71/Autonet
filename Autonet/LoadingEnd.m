@@ -883,7 +883,7 @@
         UILabel *existbutton = (UILabel *)[cell viewWithTag:1008+indexPath.row];
         [existbutton setBackgroundColor:[UIColor orangeColor]];
         [existlabel setFrame:CGRectMake(10,0,600,40)];
-        [existlabel setText:[NSString stringWithFormat:@"%@ %@", [[TotalVoertuigen objectAtIndex:indexPath.row] valueForKey:@"Kenteken"], [[TotalVoertuigen objectAtIndex:indexPath.row] valueForKey:@"AldocModel"]]];
+        [existlabel setText:[[NSString stringWithFormat:@"%@ %@", [[TotalVoertuigen objectAtIndex:indexPath.row] valueForKey:@"Kenteken"], [[TotalVoertuigen objectAtIndex:indexPath.row] valueForKey:@"AldocModel"]] stringByReplacingOccurrencesOfString:@"(null)" withString:@""]];
     } else {
         UIButton *scan =[[UIButton alloc]initWithFrame:CGRectMake(600-150, 4, 145, 30)];
         [scan setBackgroundColor:[UIColor orangeColor]];
